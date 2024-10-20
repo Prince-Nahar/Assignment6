@@ -4,6 +4,8 @@
     <string name="select_item">Sélectionnez un élément ci-dessous pour afficher</string>
     <string name="original">Original</string>
     <string name="fresh_strawberry">Fraise Fraîche</string>
+    <string name="display_title">Afficheur</string>
+    <string name="back_button_text">&lt; Retour</string>
     <string-array name="cheesecake_descriptions">
         <item>Original</item>
         <item>Fraise Fraîche</item>
