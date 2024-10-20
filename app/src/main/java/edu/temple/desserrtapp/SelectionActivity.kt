@@ -49,17 +49,19 @@ class SelectionActivity : AppCompatActivity() {
      * Generate test info for app
      */
     fun generateTestData(): Array<Item> {
-        return arrayOf(Item(R.drawable.ccf_original, "Original")
-            , Item(R.drawable.ccf_freshstrawberry,"Fresh Strawberry")
-            , Item(R.drawable.ccf_chocolatecaramelicious,"Chocolate Caramelicious Cheesecake ")
-            , Item(R.drawable.ccf_pineappleupsidedown,"Pineapple Upside-Down")
-            , Item(R.drawable.ccf_celebration,"Celebration")
-            , Item(R.drawable.ccf_caramelapple,"Caramel Apple")
-            , Item(R.drawable.ccf_verycherryghirardellichocolate,"Very Cherry Ghirardelli® Chocolate")
-            , Item(R.drawable.ccf_lowlicious,"Low-Licious")
-            , Item(R.drawable.ccf_cinnaboncinnamoncwirl,"Cinnabon® Cinnamon Swirl")
-            , Item(R.drawable.ccf_godiva,"Godiva® Chocolate")
-            , Item(R.drawable.ccf_coconutcreampie,"Coconut Cream Pie")
-            , Item(R.drawable.ccf_saltedcaramel,"Salted Caramel"))
+        val descriptions = resources.getStringArray(R.array.cheesecake_descriptions)
+
+        return arrayOf(Item(R.drawable.ccf_original, descriptions[0]),
+            Item(R.drawable.ccf_freshstrawberry, descriptions[1]),
+            Item(R.drawable.ccf_chocolatecaramelicious, descriptions[2]),
+            Item(R.drawable.ccf_pineappleupsidedown, descriptions[3]),
+            Item(R.drawable.ccf_celebration, descriptions[4]),
+            Item(R.drawable.ccf_caramelapple, descriptions[5]),
+            Item(R.drawable.ccf_verycherryghirardellichocolate, descriptions[6]),
+            Item(R.drawable.ccf_lowlicious, descriptions[7]),
+            Item(R.drawable.ccf_cinnaboncinnamoncwirl, descriptions[8]),
+            Item(R.drawable.ccf_godiva, descriptions[9]),
+            Item(R.drawable.ccf_coconutcreampie, descriptions[10]),
+            Item(R.drawable.ccf_saltedcaramel, descriptions[11]))
     }
 }
