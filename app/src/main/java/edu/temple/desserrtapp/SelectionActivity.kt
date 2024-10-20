@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -24,7 +25,10 @@ class SelectionActivity : AppCompatActivity() {
         // Set the title for the activity.
         // This is done to ensure that the activity label
         // displayed in the Android launcher is different
-        supportActionBar?.title = "Selector"
+        supportActionBar?.title = getString(R.string.app_name)
+
+        val selectItemTextView = findViewById<TextView>(R.id.displayMessage)
+        selectItemTextView.text = getString(R.string.select_item)
 
         val items = generateTestData()
 

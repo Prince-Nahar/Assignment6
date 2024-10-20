@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application de Dessert</string>
+    <string name="select_item">Sélectionnez un élément ci-dessous pour afficher</string>
+    <string name="original">Original</string>
+    <string name="fresh_strawberry">Fraise Fraîche</string>
+    <string-array name="cheesecake_descriptions">
+        <item>Original</item>
+        <item>Fraise Fraîche</item>
+        <item>Gâteau au fromage chocolat caramel</item>
+        <item>Ananas renversé</item>
+        <item>Célébration</item>
+        <item>Pomme caramel</item>
+        <item>Très cerise Ghirardelli® Chocolat</item>
+        <item>Faible en calories</item>
+        <item>Cinnabon® tourbillon de cannelle</item>
+        <item>Godiva® Chocolat</item>
+        <item>Gâteau à la noix de coco</item>
+        <item>Caramel Salé</item>
+    </string-array>
+</resources>
